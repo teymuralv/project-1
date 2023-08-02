@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@400;700&display=swap');
+
+body,
+footer {
+    overflow-x: hidden;
+}
+
+p,
+li,
+h2 {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    padding: 20px 9%;
+    margin: 0;
+}
+
+.icon img {
+    width: 13%;
+
+}
+
+.elemenet img {
+    margin-right: 4px;
+    width: 10px;
+    height: 10px;
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 5px;
+}
+
+.element {
+    display: flex;
+    font-size: 10px;
+    margin-top: 10px;
+    align-items: center;
+    line-height: 115%;
+}
+
+.kino {
+    width: 78%;
+    position: relative;
+    margin: 0;
+}
+.kino p {
+    margin-bottom: 5px;
+}
+
+.kino h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+}
+
+.kino img {
+    float: right;
+    position: absolute;
+    left: 85%;
+    width: 141.656px;
+    height: 165.886px;
+}
+.kino p {
+    width: 60%;
+}
+
+.quote {
+    margin-top: 200px;
+    padding: 1%;
+    width: 60%;
+    height: 40%;
+    border-radius: 2%;
+    background-color: #1E4681;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 11px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+}
+
+.name {
+    text-align: right;
+}
+
+.info {
+    font-family: 'Roboto Slab', serif;
+    font-size: 26px;
+    line-height: 101.385%;
+}
+
+.info p {
+    width: 100%;
+}
+
+.info img {
+    width: 40%;
+    margin: 0 115px;
+}
+
+.days {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.first {
+    font-family: Roboto;
+    font-size: 11px;
+    width: 45%;
+}
+
+.days img {
+    display: none;
+}
+
+.format {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.subj {
+    font-family: 'Roboto Slab', serif;
+    font-size: 26px;
+}
+
+.format p,
+h2 {
+    width: 55%;
+}
+
+.format h2 {
+    color: #1E4681;
+}
+
+.knowledge {
+    width: 80%;
+}
+
+ul {
+    padding: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50%;
+    justify-content: center;
+    grid-row-gap: 1%;
+}
+
+.program h1,
+.program p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    padding-left: 3%;
+}
+
+.container img {
+    width: 100%;
+}
+
+.program {
+    border-style: none;
+    border-radius: 10%;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+}
+
+.review {
+    width: 100%;
+    background-color: #EFEFEF;
+    margin-top: 20%;
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review1 {
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.25);
+    padding: 5%;
+    width: 79%;
+}
+
+.review1 h1,
+.start h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 26px;
+
+}
+
+.review1 h2 {
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.lower {
+    display: flex;
+    margin-top: 3%;
+}
+
+.start {
+    padding: 10% 5%;
+    text-align: left;
+    width: 100vw;
+    background-color: #9DC9C8;
+}
+
+.start1 {
+    display: flex;
+}
+
+.price {
+    font-size: 37px;
+    margin: 0;
+}
+
+.startup {
+    font-size: 12px;
+}
+
+.start1 div {
+    width: 35%;
+    margin-right: 3%;
+}
+
+footer {
+    width: 100vw;
+    background-color: black;
+    padding: 6% 10% 2%;
+}
+
+.logo {
+    width: 14%;
+    margin-bottom: 3%;
+}
+
+.socialMedia img {
+    width: 4%;
+    height: 4%;
+}
+
+footer p {
+    color: white;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.socialMedia {
+    display: flex;
+    gap: 3%;
+}
+
+.phone {
+    align-items: center;
+}
+
+.number {
+    margin-top: 16%;
+    margin-bottom: 1%;
+}
+
+.mail {
+    margin-bottom: 16%;
+}
+
+@media(min-width:992px) {
+
+    p,
+    li {
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+    }
+
+    .element {
+        height: 19px;
+        align-items: baseline;
+    }
+
+    .icons {
+        gap: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .element img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .kino {
+        display: flex;
+        align-items: center;
+    }
+
+    .kino h1 {
+        font-size: 37px;
+    }
+
+    .kino img {
+        width: 176.067px;
+        height: 206.183px;
+        position: relative;
+        left: 20px;
+        top: 40px;
+    }
+
+    .kino p {
+        width: 60%;
+    }
+
+    .quote {
+        margin: 110px auto;
+        width: 29%;
+    }
+
+    .days img,
+    .info,
+    .days {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .days {
+        align-items: start;
+        gap: 7%;
+    }
+
+    .format p,
+    h2 {
+        width: 100%;
+    }
+
+    .info1 img {
+        width: 24%;
+        height: 24%;
+    }
+
+    .info {
+        align-items: center;
+    }
+
+    .first h2 {
+        font-size: 20px;
+    }
+
+    .review {
+        margin-top: 10%;
+    }
+
+    .days img {
+        width: 16%;
+        padding-right: 9%;
+    }
+
+    .format {
+        flex-direction: row;
+        gap: 2%;
+    }
+
+    .subj {
+        font-size: 32px;
+        margin-top: 10%;
+    }
+
+    .format h2,
+    .format p {
+        font-size: 15px;
+    }
+
+    .knowledge {
+        width: 46%;
+    }
+
+    .container {
+        grid-template-columns: 27% 27% 27%;
+        grid-column-gap: 10%;
+        grid-row-gap: 5%;
+    }
+
+    .program h1,
+    .program p {
+        font-size: 17px;
+    }
+
+    .review1 {
+        width: 54%;
+    }
+
+    .review {
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .review1 h1,
+    .start h1 {
+        font-size: 32px;
+    }
+
+    .review1 p,
+    .start1 p {
+        font-size: 16px;
+    }
+
+    .upper {
+        font-size: 16px;
+    }
+
+    .review1 h2 {
+        font-size: 17px;
+    }
+
+    .lower div {
+        margin-left: 8%;
+    }
+
+    .price {
+        font-size: 46px;
+    }
+
+    .start {
+        width: 100%;
+    }
+
+    .startup {
+        font-size: 14px;
+    }
+
+    .start1 div {
+        width: 21%;
+    }
+
+    .last {
+        display: flex;
+        gap: 50%;
+    }
+
+    footer {
+        padding-top: 0;
+        padding-left: 4vw;
+    }
+
+    .logo {
+        width: 8vw;
+        padding-bottom: 1vw;
+        margin-top: 1vw;
+    }
+
+    .socialMedia img {
+        width: 2vw;
+    }
+
+    .socialMedia {
+        gap: 2vw;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+
+    .phone {
+        margin-top: 0.5vw;
+    }
+
+    .theLeast {
+        padding-top: 4vw;
+    }
+}
+
+@media (min-width:1280px) {
+
+    p,
+    li {
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+    }
+
+    .icons p {
+        font-size: 20px;
+    }
+
+    .element p {
+        font-size: 20px;
+    }
+
+    .kino img {
+        width: 304px;
+        height: 356px;
+    }
+    .kino h1 {
+        font-size: 40px;
+    }
+
+    .first h2 {
+        font-size: 22px;
+    }
+
+    .info1 {
+        width: 45%;
+    }
+
+    .info img {
+        width: 25%;
+        height: 25%;
+    }
+
+    .subj {
+        font-size: 55px;
+    }
+
+    .format h2,
+    .format p {
+        font-size: 25px;
+    }
+
+    .review1 h1,
+    .start h1 {
+        font-size: 55px;
+    }
+
+    .review,
+    .start {
+        width: 100%;
+    }
+
+    .upper {
+        font-size: 20px;
+    }
+
+    .review1 h2 {
+        font-size: 30px;
+    }
+
+    .startup {
+        font-size: 25px;
+    }
+
+    .price {
+        font-size: 80px;
+    }
+
+    footer p {
+        font-size: 25px;
+    }
+}
